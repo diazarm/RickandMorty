@@ -1,0 +1,11 @@
+.App {
+   text-align: center;
+   background-image: url('./img/rick-and-morty-garage-lab-1024x576.jpg');
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 100vh;
+   background-size: cover;
+   position: fixed;
+   overflow: scroll;
+ }
+

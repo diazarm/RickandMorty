@@ -1,0 +1,10 @@
+.notFound{
+    background-color: red;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center; 
+    height: 100%;
+}

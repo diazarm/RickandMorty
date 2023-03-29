@@ -1,0 +1,21 @@
+
+.aboutMe{
+    
+        background-color: rgb(31, 96, 75);
+        text-align: justify;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center; 
+        height: 100%;
+        
+    }
+  
+h1{
+    text-shadow: 1px 1px white;
+}
+
+p{
+    color: rgb(255, 0, 0);
+}
