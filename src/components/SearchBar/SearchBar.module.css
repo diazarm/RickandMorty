@@ -1,0 +1,33 @@
+.searchBtn {
+    background-image: url(./img/banner.jpg);
+    width:fit-content;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px 0px rgb(86, 81, 81);
+    border-radius: 10px;
+    text-shadow: 6px 4px 7px black;
+    display: flex;
+    padding: 10px;
+    background-size: cover;
+    position: fixed;
+    flex-direction: row;
+    right: 10px;
+}
+
+.searchInput {
+    background-color: rgb(171, 183, 153);
+    border-radius: 10px ;
+
+}
+
+.searchClick{
+    background-color: rgb(69, 178, 246);
+    border-radius: 10px ;
+    color: black;
+    
+}
+
+.searchClick:hover{
+  background-color: rgb(10, 120, 103);
+  color: white;
+}
+

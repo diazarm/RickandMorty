@@ -1,0 +1,49 @@
+.preContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+       
+}
+
+.container{
+    background-image: url(./img/imgCard.jpg);
+    width:auto;
+    height: auto;
+    box-shadow: 10px 10px 5px 0px black;
+    border-radius: 10px;
+    text-shadow: 6px 4px 7px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin: 60px;
+    opacity: 0.9;
+    
+}
+
+.closeButton{
+    border: 0px;
+    width: fit-content;
+    padding: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: red;
+    align-items: center;
+    box-shadow: 3px 3px 3px 0px black;
+    align-self: end;
+    margin-right: 10px;
+      
+    
+}
+.closeButton:hover{
+    opacity: 0.5; 
+}
+
+.imagen {
+    opacity: 1;
+    border-radius: 150px;
+    box-shadow: 6px 6px 8px 0px black;
+}
+
