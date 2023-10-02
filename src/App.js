@@ -8,10 +8,10 @@ function App () {
   const [characters, setCharacters] = useState([]);
   
     const onSearch = (id) =>{
-      const URL_BASE = 'https://be-a-rym.up.railway.app/api';
-      const KEY = 'fc8485faa954.32266e8830932b728fd1';
+      const URL_BASE = 'https://rickandmortyapi.com/api/';
+//      const KEY = 'fc8485faa954.32266e8830932b728fd1';
     
-      fetch(`${URL_BASE}/character/${id}?key=${KEY}`)
+      fetch(`${URL_BASE}/character/${id}`)
       .then(response=>response.json())
       .then(data=>{
        if (data.name){
